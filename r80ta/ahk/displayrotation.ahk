@@ -1,5 +1,4 @@
-DetectDisplayOrientation()
-{
+DetectDisplayOrientation(){
 	SysGet, _width, 0,
 	SysGet, _height, 1,
 	if(_width > _height){
